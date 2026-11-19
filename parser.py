@@ -36,7 +36,7 @@ def parse_logs(filename="wifi_logs.txt"):
                     parsed_data.append(log_entry)
                     
     except FileNotFoundError:
-        print(f"Error: {filename} was not found. Please run the generator first.")
+        print(f"Error: {filename} was not found.")
         
     return parsed_data
 
